@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ray_tracer.cpp">
+    <ClCompile Include="Ray_tracer.cc">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -48,6 +48,27 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="material.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aabb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bvh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rtw_stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="perlin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="quad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="constant_medium.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
